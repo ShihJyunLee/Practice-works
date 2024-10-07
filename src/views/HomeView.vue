@@ -22,7 +22,8 @@ h1 {
   <div class="all">
     <h1>練習小工具</h1>
     <div class="link">
-      <router-link to="/todolist">Todolist</router-link>
+      <router-link to="/todolist">Todolist</router-link><br>
+      <router-link to="/Weather">Weather</router-link>
     </div>
   </div>
 </template>

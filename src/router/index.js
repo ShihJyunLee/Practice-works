@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/todolist',
       name: 'todolist',
       component: () => import('../views/Todolist.vue')
+    },
+    {
+      path: '/Weather',
+      name: 'Weather',
+      component: () => import('../views/Weather.vue')
     }
   ]
 })
